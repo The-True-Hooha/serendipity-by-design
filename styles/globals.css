@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply tracking-wide bg-white text-black
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+    font-family: "Sora";
+    src: url("../public/assets/fonts/Sora-VariableFont_wght.ttf");
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+    font-family: "Oxygen";
+    src: url("../public/assets/fonts/Oxygen-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../public/assets/fonts/Manrope-VariableFont_wght.ttf");
 }
