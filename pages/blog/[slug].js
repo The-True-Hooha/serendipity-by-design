@@ -53,7 +53,7 @@ export default function blogPostPage({ frontmatter, content }) {
         />
       </div>
       <div
-        className="mt-4 px-10 justify-start max-w-[600px] prose prose-a:text-blue-600 lg:max-w-full lg:mt-10 text-justify lg:text-[20px] text-[15px]"
+        className="mt-4 px-10 justify-start max-w-[600px] prose prose-a:text-blue-600 lg:max-w-full text-left lg:mt-10 lg:text-[20px] text-[15px]"
         dangerouslySetInnerHTML={{ __html: md().render(content) }}
       />
     </div>

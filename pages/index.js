@@ -37,7 +37,8 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>Blog | Serendipity By Design</title>
-        <meta name="A blog about the unusual" content="Blog by David Ogar" />        
+        <meta name="A blog about the unusual" content="Blog by David Ogar" />
+        <link rel="icon" href="/icon.png" />        
       </Head>
       <div>
         <div className="lg:pt-[170px] h-screen lg:px-[300px] py-[150px]">

@@ -24,7 +24,7 @@ Let’s talk about spring boot and the latest official release for graphQL 1.0. 
 
 GraphQL release became official following the recent release of springboot 2.7.0 see image attached below.
 
-![spring-initializer home](/images/posts/09June2022/spring-init.png "spring initializer")
+![spring-initializer home](/images/posts/09June202/spring-init.png "spring initializer")
 
 
 A brief introduction to what graphQL is, and what I think you should know to get started.

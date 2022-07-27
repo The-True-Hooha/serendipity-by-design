@@ -1,0 +1,4 @@
+fix font
+add new typesense post
+push to git
+push to vercel

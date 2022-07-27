@@ -5,7 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sora: ["Sora", "sans-serif"],
+        oxygen: ["Oxygen", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"]
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/typography')
