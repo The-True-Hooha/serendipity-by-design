@@ -3,7 +3,7 @@ title: "July Monthly Roundup"
 metaTitle: "July Dump"
 metaDesc: "My July nutshell experience"
 socialImage: images/
-date: "26 Jun 2022"
+date: "08 Aug 2022"
 tags:
   - July
   - Life
