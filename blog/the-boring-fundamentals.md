@@ -3,7 +3,7 @@ title: "The Boring Fundamentals"
 metaTitle: "the boring fundamentals"
 metaDesc: "How to get started with graphql and spring boot"
 socialImage: images/image_r.jpg
-date: "09 Jun 2022"
+date: "08 Jan 2023"
 tags:
   - tech
   - science
