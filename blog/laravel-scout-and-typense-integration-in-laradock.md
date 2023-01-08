@@ -21,7 +21,6 @@ You can find additional documentation and a proper guide on how to get started [
 
 <br>
 
-
 ### Laradocks vs Laravel Scout
 
 For the non-PHP devs, I’ll briefly explain what Laradock and Laravel scout is before I dive deeper.
@@ -29,7 +28,6 @@ For the non-PHP devs, I’ll briefly explain what Laradock and Laravel scout is 
 > [Laradock](https://laradock.io/) is a PHP development environment for docker that comes with a pre-configured service for common services. You can find a long list of services that it supports, and you can have them turned on/off, or as many instances as you want.
 
 [Laravel Scout](https://laravel.com/docs/9.x/scout) is a PHP library offering driver-based solutions to handle manipulation with the index data model by adding a full-text search for that model.
-
 
 Laravel Scout supports MySQL and PostgreSQL databases and comes with Algolia or MeiliSearch. During development, a collection driver serves locally and does not require third-party integration or dependencies.
 
@@ -40,7 +38,6 @@ Laravel Scout supports MySQL and PostgreSQL databases and comes with Algolia or 
 Create a new PHP application by running one of the code commands mentioned below:
 
 1. Using Composer create-project
-
 
 `composer create-project laravel/laravel typesense-demo`
 
@@ -63,13 +60,11 @@ Installing Laravel scout with the composer command
 
 ![install laravel scout](https://aviyel.com/cdn-cgi/image/format=auto/assets/uploads/files/1658438101625-annotation-2022-07-21-214124-resized.png "composer command for laravel-scout")
 
-
 Before installing the Typesense driver, install the correct HTTP plug adapter based on the `guzzlehttp/guzzle` version you have available on your system.
 
 i.e if you are running on Laravel 8, the `guzzlehttp/guzzle` version will be version 7.
 
 ![install plug adapter](https://aviyel.com/cdn-cgi/image/format=auto/assets/uploads/files/1658438146599-annotation-2022-07-21-214253-resized.png "setup guzzlehttp/guzzle")
-
 
 <br>
 
@@ -101,7 +96,6 @@ Install the Typesense driver
 
 Add Laravel scout as a provider to avoid the “unresolvable dependency error”.
 
-
 ```php
 // config/app.php
 'providers' => [
@@ -120,9 +114,7 @@ Publish your configuration for Laravel scout with the command
 
 This command enables us to modify the created config/scout.php file and copy the configuration file in the application from the vendor package file in our case, the typesense-driver and all tags are published. Thus, any changes made to the code base will not be lost. The publish command also provides a few options that specifically assist in choosing which file should be published.
 
-
 Add the following code within config/scout.php
-
 
 ```php
 // add to config/scout.php
@@ -157,7 +149,6 @@ Now we have completely configured our Typesense integration with Laravel scout.
 For the primary usage, see the following code below or you can consider checking the Laravel Scout documentation first.
 
 Let’s add a searchable trait to the models you want to perform a search on. toSearchableArray method, in this case, defines the fields that the model should make a search on and implements `TypesenseSearch`.
-
 
 ```php
 <?php
@@ -257,7 +248,6 @@ Again the `searchable()` method here groups the result of your query and then pr
 Since Typesense offers out-of-box features with several language options for an open-source search engine compared to its competitors, it is worth looking into and stands out from the rest.
 
 This proves a massive and active community behind it, continually building tools and integrations for software development.
-
 
 **TL;DR**
 
