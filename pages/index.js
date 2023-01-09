@@ -41,8 +41,8 @@ export default function Home({ posts }) {
         <link rel="icon" href="/icon.png" />        
       </Head>
       <div>
-        <div className="lg:pt-[170px] h-screen lg:px-[300px] py-[150px]">
-          <div className="text-[15px] lg:text-[20px]  px-[20px] font-semibold uppercase text-black">Blog Posts</div>
+        <div className="lg:pt-[170px] h-full lg:px-[300px] py-[150px] ">
+          <div className="text-[15px] lg:text-[20px]  px-[20px] font-semibold uppercase text-black">recent Posts</div>
           <div className="">
             {posts.map(({ slug, frontmatter }) => (
               <div key={slug} className="py-4 px-4 md:px-5 md:py-5 hover:text-blue-700 m-2 mt-4 transition ease-in-out hover:scale-110 duration-300 flex shadow-lg border border-black bg-[#fffef9] rounded">
