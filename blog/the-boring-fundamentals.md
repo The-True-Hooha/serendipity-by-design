@@ -1,7 +1,7 @@
 ---
 title: "The Boring Fundamentals"
 metaTitle: "the boring fundamentals"
-metaDesc: "How to get started with graphql and spring boot"
+metaDesc: "the boring fundamentals"
 socialImage: images/image_r.jpg
 date: "08 Jan 2023"
 tags:
