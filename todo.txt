@@ -1,4 +1,5 @@
-fix font
-add new typesense post
-push to git
-push to vercel
+add new topics to the blog
+recall from the saved tabs on the other device
+take a compiler project and do a layman work through on it
+write on how you're building emerald, talk about the journey too
+then the game project on police catch thief
