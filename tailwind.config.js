@@ -9,11 +9,11 @@ module.exports = {
       fontFamily: {
         sora: ["Sora", "sans-serif"],
         oxygen: ["Oxygen", "sans-serif"],
-        manrope: ["Manrope", "sans-serif"]
+        manrope: ["Manrope", "sans-serif"],
+        agrandir: ["Agrandir", "sans-serif"],
+        ia_writer_quattro: ["IA Writer Quattro", "sans-serif"]
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

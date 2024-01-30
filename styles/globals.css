@@ -4,7 +4,7 @@
 
 @layer base{
     body{
-        @apply tracking-wide bg-white text-black
+        @apply tracking-wide bg-[#f6f5f0] text-black
     }
 
     html{
@@ -25,4 +25,13 @@
 @font-face {
     font-family: "Manrope";
     src: url("../public/assets/fonts/Manrope-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url("../public/assets/fonts/Agrandir-Regular.otf");
+}
+@font-face {
+    font-family: "IA Writer Quattro";
+    src: url("../public/assets/fonts/iAWriterQuattroSRegular.ttf");
 }
