@@ -35,11 +35,11 @@ const Navbar = () => {
           <BiMenu size={30} className="ml-2 rounded-sm cursor-pointer" />
         </div>
 
-        <div>
-          <p className="font- text-[19px] md:text-[25px]">
+        <div className="font-agrandir text-[#084dcf]">
+          <p className="text-[19px] md:text-[25px]">
             {" "}
             David Ogar |
-            <span className="text-[#344e41] text-[14px] md:text-[15px]">
+            <span className=" text-[14px] md:text-[15px]">
               {" "}
               Serendipity by Design
             </span>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
 
         <div className="pr-[20px]">
-          <ul className="hidden md:flex lg:pl-[150px] font-oxygen text-[#344e41] text-[17px]">
+          <ul className="hidden md:flex lg:pl-[150px] font-oxygen text-[#084dcf] text-[17px]">
             <li className="md:ml-16 cursor-pointer">
               <Link href="/">
                 <a>Home</a>

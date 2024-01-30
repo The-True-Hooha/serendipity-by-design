@@ -34,26 +34,29 @@ export async function getStaticProps({ params: { slug } }) {
 //displays the extracted content on the new page
 export default function blogPostPage({ frontmatter, content }) {
   return (
-    <div className="lg:py-[190px] lg:px-[300px] py-[120px] font-sora">
+    <div className="lg:py-[190px] lg:px-[300px] py-[120px]">
       <div className="px-5">
-        <h1 className="font-semibold lg:text-[30px] lg:flex lg:justify-center text-[20px]">
+        <h1 className=" lg:text-[40px] flex justify-center text-[30px] font-agrandir text-[#084dcf]">
           {frontmatter.title}
         </h1>
-        <p className="mt-[15px] text-[15px] font-semibold">
+        <p className="mt-[10px] flex justify-center text-[15px] font-semibold">
           {frontmatter.date}
         </p>
       </div>
       <div className="border border-black mt-4" />
       <div className="flex justify-center mt-4">
         <Image
-          width={850}
-          height={340}
+          width={300}
+          height={250}
           alt={frontmatter.title}
           src={`/${frontmatter.socialImage}`}
+          loading="lazy"
+          className="w-full lg:w-[1000px] lg-h-[1000px] xl:w-1/4"
+          // priority={true}
         />
       </div>
       <div
-        className="mt-4 px-10 justify-start max-w-[600px] prose prose-a:text-blue-600 lg:max-w-full text-left lg:mt-10 lg:text-[20px] text-[15px]"
+        className="mt-4 px-10 text-justify whitespace-pre-line leading-relaxed text-[#4e5250] font-ia_writer_quattro tracking-wide line-clamp-3 prose-a:text-blue-600 lg:max-w-full lg:mt-10 lg:text-[20px] text-[15px]"
         dangerouslySetInnerHTML={{ __html: md().render(content) }}
       />
     </div>
