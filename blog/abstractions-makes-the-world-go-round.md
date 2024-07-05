@@ -144,7 +144,7 @@ I've spent more time in my life learning that we can always use abstractions but
 Abstractions evolve with time, like a parasite. It grows and studies the host environment. What would you call a good or bad abstraction, is it one which allows you to look under the hood, allowing for better optimization? That is a question only you can answer my friend. I am but a messenger, like Morpheus in the Matrix movie. I present to you to red pill, which enables you to understand what is happening inside the abstraction, or the blue pill, allowing you to only use that abstraction.
 
 Aloha,
-<br>
+
 David❤️
 
 ![matrix](https://res.cloudinary.com/dnpwm8xgp/image/upload/v1720191887/sdb/g2v0y7coztomlei80q10.webp "hand showing pills from the matrix movie")
