@@ -37,7 +37,7 @@ At this point, it would resonate with you that the mind forces us to abstract wi
 
 The Abstraction pyramid defines the fundamental concepts on which ideas and logic evolve. The main idea, I believe is that every work should be based on concrete details that can spawn into a subset of layers at the top. For instance, a piece of text or structure that is too abstract could rather be difficult to connect with, or even hard to understand. Physical details like smell, touch, sight, or even sound evoke clear thoughts aiding the connection of abstracted ideas from conceptual beliefs or facts.
 
-![Abstraction Pyramid](../public/images/abstraction_pyramid.png "abstraction pyramid")
+![Abstraction Pyramid](https://res.cloudinary.com/dnpwm8xgp/image/upload/v1720191996/sdb/qcnrylwxa5o0cdc2yl2r.png "abstraction pyramid")
 
                             image source: created by me
 
@@ -143,12 +143,12 @@ I've spent more time in my life learning that we can always use abstractions but
 Abstractions evolve with time, like a parasite. It grows and studies the host environment. What would you call a good or bad abstraction, is it one which allows you to look under the hood, allowing for better optimization? That is a question only you can answer my friend. I am but a messenger, like Morpheus in the Matrix movie. I present to you to red pill, which enables you to understand what is happening inside the abstraction, or the blue pill, allowing you to only use that abstraction.
 
 Aloha,
-<br/>
+<br>
 David❤️
 
-![matrix](../public/images/matrix_pills.jpg "hand showing pills from the matrix movie")
+![matrix](https://res.cloudinary.com/dnpwm8xgp/image/upload/v1720191887/sdb/g2v0y7coztomlei80q10.webp "hand showing pills from the matrix movie")
 
-### TLDR
+## TLDR
 
 - [The price of abstraction (repec.org)](https://ideas.repec.org/h/elg/eechap/14176_15.html)
 - [Abstraction (computer science) - Wikipedia](https://en.wikipedia.org/wiki/Abstraction_(computer_science))
