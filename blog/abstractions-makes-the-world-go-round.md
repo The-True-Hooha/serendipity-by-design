@@ -125,6 +125,7 @@ app.post('/add', (req, res) => {
 app.listen(3000, () => console.log('Server running on port 3000'));
 
 ```
+
 Now, let's break down what both code does, and the adoption of abstraction therein. Comparing how C++ of JavaScript might handle this task.
 
 The code runs a simple web server in port `3030` and `3000` respectively. In the request made, the item is stored in an array, and the time taken is calculated with a response returned. Software engineers are familiar with high, low-level languages, and machine code, etc. Now let's look at this code and break it down in terms of memory management, performance, type safety, and concurrency. Recall I made attributes of the middle and top layers, and how they can be subdivided into different facets. In real-life practice, the performance or bottlenecks might not be noticeable. However, as it grows to handle more users/requests, and other complex operations one language stands out from the other. From these two code examples, the key differences are:
